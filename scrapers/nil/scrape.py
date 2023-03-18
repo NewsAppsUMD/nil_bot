@@ -10,7 +10,7 @@ rows = soup.find_all('li', attrs={'class': 'DealTrackerItem_container__yWF2E'})
 
 for row in rows:
     if row.find_all('img')[1]['title'] == 'houston cougars':
-        # will change == later to maryland
+        # change to maryland terrapins - just using houston for testing
         # defining a variable (with Derek's help) and then telling it to print that variable
         year = row.find_all('h6')[1].text
         print(year)
@@ -33,5 +33,6 @@ for row in rows:
 
 # Next steps:
 # Figure out the sport mess
+# Will this work for Maryland? Is there enough data for it to be an interesting bot for just Maryland, or should it be a Big Ten bot?
 # Eventually, within the loop, we are going to transform the list of rows and place the data into a list of cells that will put the data neatly into a row.
 # How do I search beyond page 1 of the site?
