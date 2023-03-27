@@ -1,15 +1,48 @@
 import requests
 from bs4 import BeautifulSoup
 
+big_ten_teams = ['Illinois Fighting Illini', 'Indiana Hoosiers', 'Iowa Hawkeyes', 'Maryland Terrapins', 'Michigan Wolverines', 'Michigan State Spartans', 'Minnesota Golden Gophers', 'Nebraska Cornhuskers', 'Northwestern Wildcats', 'Ohio State Buckeyes', 'Penn State Nittany Lions', 'Purdue Boilermakers', 'Rutgers Scarlet Knights', 'Wisconsin Badgers']
+
+players = []
+# creates a blank frame that we will fill in
+
+# range loop
+# build the page url
 url = 'https://www.on3.com/nil/deals/'
 response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
-html = response.content
+json = response.json()
 
-soup = BeautifulSoup(html, features="html.parser")
-rows = soup.find_all('li', attrs={'class': 'DealTrackerItem_container__yWF2E'})
+player_data = json['list'][2]
+
+# class year is ['person']['classYear']
+class_year = player_data['person']['classYear']
+# class rank is ['person']['classRank']
+class_rank = player_data['person']['classRank']
+# first name is ['person']['firstName']
+first_name = player_data['person']['firstName']
+# last name is ['person']['lastName']
+last_name = player_data['person']['lastName']
+# sport is ['rating']['sport']['name']
+sport = player_data['sport']['name']
+# company is ['company']['name']
+company = player_data['company']['name']
+# collective is ['collectiveGroup']['name']
+collective = player_data['collectiveGroup']['name']
+# date is ['date']
+date = player_data['date']
+# url is ['sourceUrl']
+url = player_data['sourceUrl']
+# school is ['status']['committedAsset']['fullName']
+school = player_data['status']['committedAsset']['fullName']
+
+#is this working?
+player = [date, first_name, last_name, school, class_year, class_rank, sport, company, collective, url]
+
+#player makes one row, then we put rows together (players), then we tackle the pagination
+players.append(player)
 
 for row in rows:
-    if row.find_all('img')[1]['title'] == 'houston cougars':
+    if row.find_all('img')[1]['title'] in big_ten_teams:
         # change to maryland terrapins - just using houston for testing
         # defining a variable (with Derek's help) and then telling it to print that variable
         year = row.find_all('h6')[1].text
