@@ -9,13 +9,19 @@ url = 'https://api.on3.com/public/v1/deals?page=1'
 response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
 json = response.json()
 # downloads the json version of the On3NIL page
+# resource for parsing json keys: https://jsonlint.com/
 
 players = []
 # creates an empty list called players that we will use to store the data
 
+big_ten_teams = ['Illinois Fighting Illini', 'Indiana Hoosiers', 'Iowa Hawkeyes', 'Maryland Terrapins', 'Michigan Wolverines', 'Michigan State Spartans', 'Minnesota Golden Gophers', 'Nebraska Cornhuskers', 'Northwestern Wildcats', 'Ohio State Buckeyes', 'Penn State Nittany Lions', 'Purdue Boilermakers', 'Rutgers Scarlet Knights', 'Wisconsin Badgers']
+# In Python, an equal sign assigns a variable. We've created a variable with all the Big Ten teams.
+
 player_data = json['list'][0]
 # I think we're making a variable called player_data that gets the json version of everything that is under 'list' on On3NIL for the first player (0)
 
+# might need a statement here like: for player in players: (potential resource: https://www.w3schools.com/python/python_for_loops.asp)
+# might need to put all of this in an if statement that says: if the team is in the big ten:
 class_year = player_data['person']['classYear']
 class_rank = player_data['person']['classRank']
 first_name = player_data['person']['firstName']
@@ -24,15 +30,18 @@ if 'sport' in player_data:
     sport = player_data['sport']['name']
 else:
     sport = player_data['rating']['sport']['name']
+# is there a way to use an elif condition here to say: go through these first two conditions, but if there's nothing, then print "not available?"
+# https://www.w3schools.com/python/python_conditions.asp
 if 'company' in player_data:
     company_or_collective = player_data['company']['name']
 else:
     company_or_collective = player_data['collectiveGroup']['name']
+# ideally, I think I would like this code to be "if there is something in 'company,' print the word "company," otherwise print the word "collective;" then a separate line of code would pull the name of the company or the collective
 date = player_data['date']
+# is there a way to clean up this output?
 url = player_data['sourceUrl']
 school = player_data['status']['committedAsset']['fullName']
-# A list (dictionary?) of all the variables for each player we want to pull within the 'list' section of On3NIL
-# Can we clean up date output?
+# might need to put an else statement here that says: if the team is not in the big ten, then continue
 
 players.append([date, first_name, last_name, school, sport, class_year, class_rank, company_or_collective, url])
 # Here, we're saying take the dictionary I made above and append it to the empty list (players) we made earlier.
@@ -40,7 +49,4 @@ players.append([date, first_name, last_name, school, sport, class_year, class_ra
 print(players)
 # Output the players list
 
-# Getting errors when there is no sport or when the player got a deal from a collective ('NoneType' object is not subscriptable). Also getting same error message for other variables (e.g., school).
-
-big_ten_teams = ['Illinois Fighting Illini', 'Indiana Hoosiers', 'Iowa Hawkeyes', 'Maryland Terrapins', 'Michigan Wolverines', 'Michigan State Spartans', 'Minnesota Golden Gophers', 'Nebraska Cornhuskers', 'Northwestern Wildcats', 'Ohio State Buckeyes', 'Penn State Nittany Lions', 'Purdue Boilermakers', 'Rutgers Scarlet Knights', 'Wisconsin Badgers']
-# In Python, an equal sign assigns a variable. We've created a variable with all the Big Ten teams.
+# This is working for many players, but getting errors when there is no sport or when the player got a deal from a collective ('NoneType' object is not subscriptable). Also getting same error message for some players in other variables (e.g., school).
