@@ -1,32 +1,59 @@
-#THIS WILL BE THE CLEAN VERSION OF MY SCRAPE.PY FILE
-
+import csv
+import math
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://api.on3.com/public/v1/deals?page=1'
-response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+base_url = 'https://api.on3.com/public/v1/deals?page={}'
+results = []
+
+big_ten_teams = ['Illinois Fighting Illini', 'Indiana Hoosiers', 'Iowa Hawkeyes', 'Maryland Terrapins', 'Michigan Wolverines', 'Michigan State Spartans', 'Minnesota Golden Gophers', 'Nebraska Cornhuskers', 'Northwestern Wildcats', 'Ohio State Buckeyes', 'Penn State Nittany Lions', 'Purdue Boilermakers', 'Rutgers Scarlet Knights', 'Wisconsin Badgers']
+
+response = requests.get(base_url.format(1), headers={'User-Agent': 'Mozilla/5.0'})
 json = response.json()
+total_count = json['pagination']['count']
+items_per_page = json['pagination']['itemsPerPage']
 
-players = []
+total_pages = math.ceil(total_count / items_per_page)
 
-player_data = json['list'][0]
+for page_num in range(1, total_pages+1):
+    url = base_url.format(page_num)
+    response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+    json = response.json()
+    player_data_list = json['list']
+    for player_data in json['list']:
+        class_year = player_data['person']['classYear']
+        class_rank = player_data['person']['classRank']
+        first_name = player_data['person']['firstName']
+        last_name = player_data['person']['lastName']
+        if 'sport' in player_data and 'name' in player_data['sport']:
+            sport = player_data['sport']['name']
+        elif player_data.get('rating') and 'sport' in player_data['rating']:
+            sport = player_data['rating']['sport']['name']
+        else:
+            sport = None
+        if 'company' in player_data and player_data['company']:
+            company = player_data['company']['name']
+        elif 'collectiveGroup' in player_data and player_data['collectiveGroup']:
+            company = player_data['collectiveGroup']['name']
+        else:
+            company = None
+        date = player_data['date']
+        url = player_data['sourceUrl']
+        if 'status' in player_data and player_data['status'] is not None and 'committedAsset' in player_data['status'] and player_data['status']['committedAsset'] is not None:
+            school = player_data['status']['committedAsset']['fullName']
+        else:
+            school = None
 
-class_year = player_data['person']['classYear']
-class_rank = player_data['person']['classRank']
-first_name = player_data['person']['firstName']
-last_name = player_data['person']['lastName']
-if 'sport' in player_data:
-    sport = player_data['sport']['name']
-else:
-    sport = player_data['rating']['sport']['name']
-if 'company' in player_data:
-    company_or_collective = player_data['company']['name']
-else:
-    company_or_collective = player_data['collectiveGroup']['name']
-date = player_data['date']
-url = player_data['sourceUrl']
-school = player_data['status']['committedAsset']['fullName']
+        if school in big_ten_teams:
+            results.append([date, first_name, last_name, school, sport, class_year, class_rank, company, url])
+        else:
+            continue
 
-players.append([date, first_name, last_name, school, sport, class_year, class_rank, company_or_collective, url])
+#print(results)
 
-print(players)
+headers = ['Date', 'First Name', 'Last Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Company', 'URL']
+
+with open("./big-ten-nil.csv", "w") as outfile:
+    writer = csv.writer(outfile)
+    writer.writerow(headers)
+    writer.writerows(results)
