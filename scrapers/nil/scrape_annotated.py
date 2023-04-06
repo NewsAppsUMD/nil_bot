@@ -51,7 +51,6 @@ for page_num in range(1, total_pages+1):
             school = player_data['status']['committedAsset']['fullName']
         else:
             school = None
-# is there a way to clean up the date output?
 
         if school in big_ten_teams:
             results.append([date, first_name, last_name, school, sport, class_year, class_rank, company, url])

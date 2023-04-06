@@ -2,6 +2,7 @@ import csv
 import math
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 base_url = 'https://api.on3.com/public/v1/deals?page={}'
 results = []
@@ -32,12 +33,19 @@ for page_num in range(1, total_pages+1):
         else:
             sport = None
         if 'company' in player_data and player_data['company']:
-            company = player_data['company']['name']
+            type = 'Company'
         elif 'collectiveGroup' in player_data and player_data['collectiveGroup']:
-            company = player_data['collectiveGroup']['name']
+            type = 'Collective'
         else:
-            company = None
+            type = None
+        if 'company' in player_data and player_data['company']:
+            partner = player_data['company']['name']
+        elif 'collectiveGroup' in player_data and player_data['collectiveGroup']:
+            partner = player_data['collectiveGroup']['name']
+        else:
+            partner = None
         date = player_data['date']
+        formatted_date = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S').strftime('%m/%d/%Y')
         url = player_data['sourceUrl']
         if 'status' in player_data and player_data['status'] is not None and 'committedAsset' in player_data['status'] and player_data['status']['committedAsset'] is not None:
             school = player_data['status']['committedAsset']['fullName']
@@ -45,13 +53,13 @@ for page_num in range(1, total_pages+1):
             school = None
 
         if school in big_ten_teams:
-            results.append([date, first_name, last_name, school, sport, class_year, class_rank, company, url])
+            results.append([formatted_date, last_name, first_name, school, sport, class_year, class_rank, type, partner, url])
         else:
             continue
 
 #print(results)
 
-headers = ['Date', 'First Name', 'Last Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Company', 'URL']
+headers = ['Date', 'Last Name', 'First Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
 
 with open("./big-ten-nil.csv", "w") as outfile:
     writer = csv.writer(outfile)
