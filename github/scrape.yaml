@@ -22,7 +22,7 @@ jobs:
         run: pip install requests bs4
 
       - name: run scraper
-        run: python scrapers/nil/scrape.py
+        run: python nil_bot/scrapers/nil/scrape.py
 
       - name: "Commit and push if it changed"
         run: |-
