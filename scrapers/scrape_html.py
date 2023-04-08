@@ -1,4 +1,4 @@
-#THIS HAS THE HTML SCRAPER CODE THAT I THINK WE'RE NOT USING ANYMORE
+#THIS HAS THE HTML SCRAPER CODE THAT WE'RE NOT USING ANYMORE
 
 for row in rows:
     if row.find_all('img')[1]['title'] in big_ten_teams:
@@ -19,12 +19,3 @@ for row in rows:
     # this next set of code: if it's not the team I care about, please skip and continue
     #else:
         #continue
-
-# Following directions here: https://first-web-scraper-umd.readthedocs.io/en/latest/
-# Left off at this step: Next we take all the detective work we did with the page’s HTML above and convert it into a simple, direct command that will instruct BeautifulSoup on how to extract only the table we’re after.
-
-# Next steps:
-# Figure out the sport mess
-# Will this work for Maryland? Is there enough data for it to be an interesting bot for just Maryland, or should it be a Big Ten bot?
-# Eventually, within the loop, we are going to transform the list of rows and place the data into a list of cells that will put the data neatly into a row.
-# How do I search beyond page 1 of the site?

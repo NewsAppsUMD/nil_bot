@@ -1,14 +1,20 @@
 #IN THIS VERSION OF MY SCRAPE.PY FILE, I AM PUTTING IN A LOT OF NOTES TO HELP ME UNDERSTAND WHAT IS HAPPENING
 
+# resources:
+# https://first-web-scraper-umd.readthedocs.io/en/latest/
+# ChatGPT useful for specific questions and debugging errors
+
 import csv
 import math
 import requests
-from bs4 import BeautifulSoup
+from datetime import datetime
 #bringing in libraries we need
 
 base_url = 'https://api.on3.com/public/v1/deals?page={}'
 results = []
 # creates an empty list called results that we will use to store the data
+# resource for identifying json keys: https://jsonlint.com/
+# In Python, an equals sign means we are defining a variable
 
 big_ten_teams = ['Illinois Fighting Illini', 'Indiana Hoosiers', 'Iowa Hawkeyes', 'Maryland Terrapins', 'Michigan Wolverines', 'Michigan State Spartans', 'Minnesota Golden Gophers', 'Nebraska Cornhuskers', 'Northwestern Wildcats', 'Ohio State Buckeyes', 'Penn State Nittany Lions', 'Purdue Boilermakers', 'Rutgers Scarlet Knights', 'Wisconsin Badgers']
 
@@ -18,9 +24,9 @@ total_count = json['pagination']['count']
 items_per_page = json['pagination']['itemsPerPage']
 # downloads the json version of the On3NIL page
 # defining some variables to help us figure out the end range of the scrape
-# resource for parsing json keys: https://jsonlint.com/
+# json keys are enclosed in quotation marks
 
-total_pages = math.ceil(total_count / items_per_page)
+total_pages = math.ceil(total_count/items_per_page)
 # defining another variable to help us figure out the end range of the scrape; when we add this to the loop, we will add a +1 in case total_count/items is a fraction
 
 for page_num in range(1, total_pages+1):
@@ -40,29 +46,37 @@ for page_num in range(1, total_pages+1):
         else:
             sport = None
         if 'company' in player_data and player_data['company']:
-            company = player_data['company']['name']
+            type = 'Company'
         elif 'collectiveGroup' in player_data and player_data['collectiveGroup']:
-            company = player_data['collectiveGroup']['name']
+            type = 'Collective'
         else:
-            company = None
+            type = None
+        if 'company' in player_data and player_data['company']:
+            partner = player_data['company']['name']
+        elif 'collectiveGroup' in player_data and player_data['collectiveGroup']:
+            partner = player_data['collectiveGroup']['name']
+        else:
+            partner = None
         date = player_data['date']
+        formatted_date = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S').strftime('%m/%d/%Y')
         url = player_data['sourceUrl']
         if 'status' in player_data and player_data['status'] is not None and 'committedAsset' in player_data['status'] and player_data['status']['committedAsset'] is not None:
             school = player_data['status']['committedAsset']['fullName']
         else:
             school = None
+#this is the bulk of the code; we are creating ways for the values from various json keys to pull into our code
 
         if school in big_ten_teams:
-            results.append([date, first_name, last_name, school, sport, class_year, class_rank, company, url])
+            results.append([formatted_date, last_name, first_name, school, sport, class_year, class_rank, type, partner, url])
         else:
             continue
-# Here, we're saying take the variables I defined above and appending them to the empty list (players) we made earlier.
+# here, we're saying take the variables I defined above and appending them to the empty list (players) we made earlier.
 
 #print(results)
-#uncomment this if you want to output in the terminal
+# this is commented out because we no longer want the output to print in the terminal; instead, it will print to a CSV
 
-headers = ['Date', 'First Name', 'Last Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Company', 'URL']
-#define headers for output table
+headers = ['Date', 'Last Name', 'First Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
+# define headers for output table
 
 with open("./big-ten-nil.csv", "w") as outfile:
     writer = csv.writer(outfile)

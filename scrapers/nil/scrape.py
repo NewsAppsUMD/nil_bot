@@ -1,7 +1,6 @@
 import csv
 import math
 import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
 
 base_url = 'https://api.on3.com/public/v1/deals?page={}'
@@ -14,7 +13,7 @@ json = response.json()
 total_count = json['pagination']['count']
 items_per_page = json['pagination']['itemsPerPage']
 
-total_pages = math.ceil(total_count / items_per_page)
+total_pages = math.ceil(total_count/items_per_page)
 
 for page_num in range(1, total_pages+1):
     url = base_url.format(page_num)
