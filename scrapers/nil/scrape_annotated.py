@@ -3,6 +3,7 @@
 # resources:
 # https://first-web-scraper-umd.readthedocs.io/en/latest/
 # ChatGPT useful for specific questions and debugging errors
+# for git scraping: https://github.com/NewsAppsUMD/git-scraping
 
 import csv
 import math

@@ -1,6 +1,9 @@
 # nil_bot
 Bot of NIL data
 
+Postscript 04/08:
+I started trying to figure out the git scraping step, but so far, nothing is showing up under Github Actions. I will continue to work on debugging this.
+
 Update 04/08:
 I worked towards making a bot that scraped the website On3.com/nil/deals and stored data about Big Ten athletes’ NIL deals in a CSV file. Using tools such as our class resources, ChatGPT, and W3schools – as well as a lot of help from my instructor – I was able to get to the point of having functioning code. I have not encountered any error messages the last several times I have run my code, and the output looks reasonably clean as a CSV file. Because I was spending most of my time figuring out how to write Python code and debugging error messages, I have not yet gotten to the point of making a git scraper that automates the data collection, nor have I gotten to the point of creating a publicly accessible output for the data on a website like Datasette. Thus, in order to access the data, a user must have my code, know how run the code, and download the output as a CSV. I hope to continue working on this bot for my final project and turn the data into a news app that addresses some of these issues.
 
