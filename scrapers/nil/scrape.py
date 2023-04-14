@@ -23,8 +23,7 @@ for page_num in range(1, total_pages+1):
     for player_data in json['list']:
         class_year = player_data['person']['classYear']
         class_rank = player_data['person']['classRank']
-        first_name = player_data['person']['firstName']
-        last_name = player_data['person']['lastName']
+        name = player_data['person']['fullName']
         if 'sport' in player_data and 'name' in player_data['sport']:
             sport = player_data['sport']['name']
         elif player_data.get('rating') and 'sport' in player_data['rating']:
@@ -32,17 +31,37 @@ for page_num in range(1, total_pages+1):
         else:
             sport = None
         if 'company' in player_data and player_data['company']:
-            type = 'Company'
-        elif 'collectiveGroup' in player_data and player_data['collectiveGroup']:
-            type = 'Collective'
+            company_name = player_data['company']['name']
         else:
-            type = None
-        if 'company' in player_data and player_data['company']:
-            partner = player_data['company']['name']
-        elif 'collectiveGroup' in player_data and player_data['collectiveGroup']:
-            partner = player_data['collectiveGroup']['name']
+            company_name = None
+        if 'collectiveGroup' in player_data and player_data['collectiveGroup']:
+            collective_name = player_data['collectiveGroup']['name']
+        else:
+            collective_name = None
+        if 'agent' in player_data and player_data['agent']:
+            agent_name = player_data['agent']['name']
+        else:
+            agent_name = None
+        if company_name and collective_name:
+            partner = f"{collective_name}, {company_name}"
+        elif company_name:
+            partner = company_name
+        elif collective_name:
+            partner = collective_name
+        elif agent_name:
+            partner = agent_name
         else:
             partner = None
+        if company_name and collective_name:
+            type = 'Collective and company'
+        elif company_name:
+            type = 'Company'
+        elif collective_name:
+            type = 'Collective'
+        elif agent_name:
+            type = 'NIL representation'
+        else:
+            type = None
         date = player_data['date']
         formatted_date = datetime.strptime(date, '%Y-%m-%dT%H:%M:%S').strftime('%m/%d/%Y')
         url = player_data['sourceUrl']
@@ -52,13 +71,13 @@ for page_num in range(1, total_pages+1):
             school = None
 
         if school in big_ten_teams:
-            results.append([formatted_date, last_name, first_name, school, sport, class_year, class_rank, type, partner, url])
+            results.append([formatted_date, name, school, sport, class_year, class_rank, type, partner, url])
         else:
             continue
 
 #print(results)
 
-headers = ['Date', 'Last Name', 'First Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
+headers = ['Date', 'Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
 
 with open("./big-ten-nil.csv", "w") as outfile:
     writer = csv.writer(outfile)
