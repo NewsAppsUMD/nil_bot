@@ -21,6 +21,7 @@ for page_num in range(1, total_pages+1):
     json = response.json()
     player_data_list = json['list']
     for player_data in json['list']:
+        key = player_data['key']
         class_year = player_data['person']['classYear']
         class_rank = player_data['person']['classRank']
         name = player_data['person']['fullName']
@@ -67,16 +68,18 @@ for page_num in range(1, total_pages+1):
         url = player_data['sourceUrl']
         if 'status' in player_data and player_data['status'] is not None and 'committedAsset' in player_data['status'] and player_data['status']['committedAsset'] is not None:
             school = player_data['status']['committedAsset']['fullName']
+        elif 'status' in player_data and player_data['status'] is not None and 'transferredAsset' in player_data['status'] and player_data['status']['transferredAsset'] is not None:
+            school = player_data['status']['transferredAsset']['fullName']
         elif 'rpm' in player_data and player_data['rpm'] is not None and 'fullName' in player_data['rpm'] and player_data['rpm']['fullName'] is not None:
             school = player_data['rpm']['fullName']
         else:
             school = None
 
-        results.append([formatted_date, name, school, sport, class_year, class_rank, type, partner, url])
+        results.append([key, formatted_date, name, school, sport, class_year, class_rank, type, partner, url])
         
 #print(results)
 
-headers = ['Date', 'Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
+headers = ['Key', 'Date', 'Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
 
 with open("./all-nil.csv", "w") as outfile:
     writer = csv.writer(outfile)

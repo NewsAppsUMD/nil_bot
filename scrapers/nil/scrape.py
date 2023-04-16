@@ -21,6 +21,7 @@ for page_num in range(1, total_pages+1):
     json = response.json()
     player_data_list = json['list']
     for player_data in json['list']:
+        key = player_data['key']
         class_year = player_data['person']['classYear']
         class_rank = player_data['person']['classRank']
         name = player_data['person']['fullName']
@@ -71,13 +72,13 @@ for page_num in range(1, total_pages+1):
             school = None
 
         if school in big_ten_teams:
-            results.append([formatted_date, name, school, sport, class_year, class_rank, type, partner, url])
+            results.append([key, formatted_date, name, school, sport, class_year, class_rank, type, partner, url])
         else:
             continue
 
 #print(results)
 
-headers = ['Date', 'Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
+headers = ['Key', 'Date', 'Name', 'School', 'Sport', 'Class Year', 'Class Rank', 'Type', 'Partner', 'URL']
 
 with open("./big-ten-nil.csv", "w") as outfile:
     writer = csv.writer(outfile)
