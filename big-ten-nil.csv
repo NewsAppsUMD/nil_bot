@@ -189,14 +189,14 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 4025,01/11/2023,Ali Sonier,Minnesota Golden Gophers,,2018,Senior,Company,College Thread,https://collegethread.com/search?q=sonier&type=product%2Carticle%2Cpage
 4024,01/11/2023,Ali Sonier,Minnesota Golden Gophers,,2018,Senior,Collective,Dinkytown Athletes,https://twitter.com/alisonier/status/1612979079774441472
 4612,01/11/2023,Malik Hartford,Ohio State Buckeyes,Football,2023,Freshman,Company,VerifiedInk,https://verifiedink.us/drops/79
-4031,01/10/2023,Jermaine Mathews,Ohio State Buckeyes,Football,2023,Freshman,Collective,The Foundation,
 4028,01/10/2023,Malik Hartford,Ohio State Buckeyes,Football,2023,Freshman,Collective,The Foundation,
+4031,01/10/2023,Jermaine Mathews,Ohio State Buckeyes,Football,2023,Freshman,Collective,The Foundation,
 4030,01/10/2023,Jelani Thurman,Ohio State Buckeyes,Football,2023,Freshman,Collective,The Foundation,
 4029,01/10/2023,Noah Rogers,Ohio State Buckeyes,Football,2023,Freshman,Collective,The Foundation,
 4027,01/10/2023,Carnell Tate,Ohio State Buckeyes,Football,2023,Freshman,Collective,The Foundation,
 4095,01/09/2023,Mason Gillis,Purdue Boilermakers,Basketball,2019,RedShirt Junior,Company,Nine Irish Brothers,https://twitter.com/GillisMason/status/1612600159787159554
-3994,01/09/2023,Miyan Williams,Ohio State Buckeyes,Football,2020,Junior,Collective,The Foundation,https://twitter.com/TheFoundation1_/status/1612608535040331776/photo/1
 4096,01/09/2023,Camden Heide,Purdue Boilermakers,Basketball,2022,Freshman,Company,Nine Irish Brothers,https://twitter.com/CamdenHeide/status/1612657738957422592
+3994,01/09/2023,Miyan Williams,Ohio State Buckeyes,Football,2020,Junior,Collective,The Foundation,https://twitter.com/TheFoundation1_/status/1612608535040331776/photo/1
 4576,01/07/2023,Jess Gardner,Nebraska Cornhuskers,,2019,Freshman,Company,Lou x Link Omaha,https://www.instagram.com/p/CnIF837OY-c/?hl=en
 4066,01/06/2023,Julian Fleming,Ohio State Buckeyes,Football,2020,Junior,Company,REVIVYOU,https://www.instagram.com/p/CnDca-duyIH/
 3906,01/05/2023,Quinton Newsome,Nebraska Cornhuskers,Football,2019,Junior,Collective,The 1890 Initiative,https://twitter.com/1890Initiative/status/1610657696033771521
@@ -335,8 +335,8 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 2832,11/08/2022,Cornelius Johnson,Michigan Wolverines,Football,2019,Senior,Company,Wolverine+,https://twitter.com/andrel_jr/status/1589690797582323712
 2910,11/04/2022,Teddy Perozek,Ohio State Buckeyes,,2022,Freshman,Company,Playa Bowls,https://www.instagram.com/p/CkioMvzuz14/
 2775,11/03/2022,Carter Kingsbury,Iowa Hawkeyes,,2021,Freshman,Collective,The Swarm Collective,https://twitter.com/IowaSwarm/status/1588181647610056708/video/1
-2953,11/03/2022,Theryn Hallock,Michigan State Spartans,,2022,Freshman,Company,Michigan State University FCU,https://www.instagram.com/p/CkeWGzwLtSY/
 3036,11/03/2022,Grace Berger,Indiana Hoosiers,,2018,Senior,Company,Indiana NIL Store,https://www.instagram.com/p/CkhKnvHpAhK/
+2953,11/03/2022,Theryn Hallock,Michigan State Spartans,,2022,Freshman,Company,Michigan State University FCU,https://www.instagram.com/p/CkeWGzwLtSY/
 2911,11/02/2022,Bowen Hardman,Ohio State Buckeyes,Basketball,2022,Freshman,Company,Playa Bowls,https://www.instagram.com/p/CkdmpQnOY5a/
 2723,10/31/2022,Malik Reneau,Indiana Hoosiers,Basketball,2022,Freshman,NIL representation,WME Sports,https://twitter.com/WME_Sports/status/1587157710478319616?s=20&t=XPdPuL1d6sJ3tUN37TS1kg
 2710,10/31/2022,Abby Bosco,Maryland Terrapins,,2017,,Company,Lacrosse Unlimited,https://www.instagram.com/p/CiyBNrPrcSY/
@@ -345,7 +345,6 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 2697,10/31/2022,Adisa Isaac,Penn State Nittany Lions,Football,2019,RedShirt Junior,Company,ScienceLogic,https://twitter.com/AIOpsNick/status/1587064661882683398
 3070,10/31/2022,Taylor McCabe,Iowa Hawkeyes,,2022,Freshman,Company,The Black and Gold Shop,https://twitter.com/_taylormccabe/status/1587207686629752833
 2659,10/27/2022,Coleman Hawkins,Illinois Fighting Illini,Basketball,2020,Junior,NIL representation,WME Sports,https://twitter.com/WME_Sports/status/1585345804352466944
-2638,10/26/2022,Braden Smith,Purdue Boilermakers,Basketball,2022,Freshman,Collective and company,"Boilermaker Alliance, Versiti Blood Center of Indiana",https://twitter.com/BoilerAlliance/status/1584972167296741377/photo/2
 2644,10/26/2022,Brian Waddell,Purdue Boilermakers,,2021,RedShirt Freshman,Collective and company,"Boilermaker Alliance, Versiti Blood Center of Indiana",https://twitter.com/BoilerAlliance/status/1584972167296741377/photo/2
 2646,10/26/2022,Trey Kaufman-Renn,Purdue Boilermakers,Basketball,2021,RedShirt Freshman,Collective and company,"Boilermaker Alliance, Versiti Blood Center of Indiana",https://twitter.com/BoilerAlliance/status/1584972167296741377/photo/2
 2663,10/26/2022,TreVeyon Henderson,Ohio State Buckeyes,Football,2021,Sophomore,Company,Kane Footwear,https://www.instagram.com/p/CkMFSX8vkTs/
@@ -354,6 +353,7 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 2664,10/26/2022,Miyan Williams,Ohio State Buckeyes,Football,2020,Junior,Company,Kane Footwear,https://www.instagram.com/p/CkMFSX8vkTs/
 2613,10/26/2022,Matt Carrick,Michigan State Spartans,Football,2017,RedShirt Senior,Company,Hungry Howie's,https://twitter.com/Matt_carrick56/status/1585044406129737728
 2634,10/26/2022,Mason Gillis,Purdue Boilermakers,Basketball,2019,RedShirt Junior,Collective and company,"Boilermaker Alliance, Versiti Blood Center of Indiana",https://twitter.com/BoilerAlliance/status/1585317244611223553
+2622,10/26/2022,Brandon Baldwin,Michigan State Spartans,Football,2019,RedShirt Sophomore,Company,Hungry Howie's,https://twitter.com/Matt_carrick56/status/1585044406129737728
 2624,10/26/2022,Kevin Wigenton,Michigan State Spartans,Football,2021,RedShirt Freshman,Company,Hungry Howie's,https://twitter.com/Matt_carrick56/status/1585044406129737728
 2616,10/26/2022,J.D. Duplain,Michigan State Spartans,Football,2019,RedShirt Junior,Company,Hungry Howie's,https://twitter.com/Matt_carrick56/status/1585044406129737728
 2621,10/26/2022,Geno VanDeMark,Michigan State Spartans,Football,2021,RedShirt Freshman,Company,Hungry Howie's,https://twitter.com/Matt_carrick56/status/1585044406129737728
@@ -365,7 +365,7 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 2642,10/26/2022,Camden Heide,Purdue Boilermakers,Basketball,2022,Freshman,Collective and company,"Boilermaker Alliance, Versiti Blood Center of Indiana",https://twitter.com/BoilerAlliance/status/1584972167296741377/photo/2
 2635,10/26/2022,Caleb Furst,Purdue Boilermakers,Basketball,2021,Sophomore,Collective and company,"Boilermaker Alliance, Versiti Blood Center of Indiana",https://twitter.com/BoilerAlliance/status/1585317244611223553
 2620,10/26/2022,Brian Greene,Michigan State Spartans,Football,2017,RedShirt Senior,Company,Hungry Howie's,https://twitter.com/Matt_carrick56/status/1585044406129737728
-2622,10/26/2022,Brandon Baldwin,Michigan State Spartans,Football,2019,RedShirt Sophomore,Company,Hungry Howie's,https://twitter.com/Matt_carrick56/status/1585044406129737728
+2638,10/26/2022,Braden Smith,Purdue Boilermakers,Basketball,2022,Freshman,Collective and company,"Boilermaker Alliance, Versiti Blood Center of Indiana",https://twitter.com/BoilerAlliance/status/1584972167296741377/photo/2
 2600,10/25/2022,Tommy DeVito,Illinois Fighting Illini,Football,2017,RedShirt Senior,Company,Slumberland Furniture Champaign,https://www.instagram.com/p/CkJMCqcuKLk/
 2550,10/25/2022,Braelon Allen,Wisconsin Badgers,Football,2021,Sophomore,Company,Outback Steakhouse,
 3030,10/25/2022,Monika Czinano,Iowa Hawkeyes,,2018,Senior,Company,The Black and Gold Shop,https://twitter.com/MCzinano/status/1584987420742668289
@@ -401,13 +401,13 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 5498,10/07/2022,Tyler Wahl,Wisconsin Badgers,Basketball,2019,Senior,Company,Brew City Battle,https://twitter.com/tjwahl01/status/1578525584954560512
 2759,10/05/2022,Anna Camden,Penn State Nittany Lions,,2019,Senior,Company,Urban Outfitters,https://www.instagram.com/p/CjWQ9rMpa19/
 2071,10/03/2022,Roddy Gayle Jr.,Ohio State Buckeyes,Basketball,2022,Freshman,Collective,The O Foundation,https://www.dispatch.com/story/sports/college/basketball/2022/10/03/buckeyes-mens-basketball-buoyed-by-new-nil-collective/69533072007/
-2067,10/03/2022,Zed Key,Ohio State Buckeyes,Basketball,2020,Freshman,Collective,The O Foundation,https://www.dispatch.com/story/sports/college/basketball/2022/10/03/buckeyes-mens-basketball-buoyed-by-new-nil-collective/69533072007/
 2068,10/03/2022,Brice Sensabaugh,Ohio State Buckeyes,Basketball,2022,Freshman,Collective,The O Foundation,https://www.dispatch.com/story/sports/college/basketball/2022/10/03/buckeyes-mens-basketball-buoyed-by-new-nil-collective/69533072007/
 2070,10/03/2022,Bruce Thornton,Ohio State Buckeyes,Basketball,2022,Freshman,Collective,The O Foundation,https://www.dispatch.com/story/sports/college/basketball/2022/10/03/buckeyes-mens-basketball-buoyed-by-new-nil-collective/69533072007/
 2069,10/03/2022,Felix Okpara,Ohio State Buckeyes,Basketball,2022,Senior,Collective,The O Foundation,https://www.dispatch.com/story/sports/college/basketball/2022/10/03/buckeyes-mens-basketball-buoyed-by-new-nil-collective/69533072007/
 3474,10/03/2022,Jalen Hood-Schifino,Indiana Hoosiers,Basketball,2022,Freshman,Company,The F1NO Project,https://twitter.com/jalenhs/status/1577071675442884609
 2066,10/03/2022,Justice Sueing,Ohio State Buckeyes,Basketball,2017,RedShirt Sophomore,Collective,The O Foundation,https://www.dispatch.com/story/sports/college/basketball/2022/10/03/buckeyes-mens-basketball-buoyed-by-new-nil-collective/69533072007/
 3493,10/03/2022,Sydney Parrish,Indiana Hoosiers,,2020,Junior,Company,CommunityCars.com,https://www.instagram.com/p/CjQfMGnO1av/
+2067,10/03/2022,Zed Key,Ohio State Buckeyes,Basketball,2020,Freshman,Collective,The O Foundation,https://www.dispatch.com/story/sports/college/basketball/2022/10/03/buckeyes-mens-basketball-buoyed-by-new-nil-collective/69533072007/
 2914,10/02/2022,Nya Bussey,Ohio State Buckeyes,,2019,Senior,Company,Playa Bowls,https://www.instagram.com/p/CjPAatGoDxD/
 3385,10/01/2022,Devyn Robinson,Wisconsin Badgers,,2020,Junior,Company,FreshFin,https://www.instagram.com/p/CjLYg0Gro51/
 2361,09/30/2022,Mitchell Pehlke,Ohio State Buckeyes,,2020,Junior,Company,SoFi,https://www.instagram.com/p/CjWbPEiJENL/
@@ -514,8 +514,8 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 1290,08/26/2022,Tanor Bortolini,Wisconsin Badgers,Football,2020,RedShirt Sophomore,Company,Sprecher Brewery,https://www.on3.com/nil/news/wisconsin-badgers-offensive-line-sign-nil-deal-with-sprecher-craft-soda/
 1288,08/26/2022,Tyler Beach,Wisconsin Badgers,Football,2017,RedShirt Senior,Company,Sprecher Brewery,
 1287,08/26/2022,Dylan Barrett,Wisconsin Badgers,Football,2020,RedShirt Sophomore,Company,Sprecher Brewery,
-5523,08/26/2022,Max Anderson,Nebraska Cornhuskers,,2020,Sophomore,Company,Charlie Hustle,https://twitter.com/maxanderson62_/status/1563259607631675393
 5520,08/26/2022,Brice Matthews,Nebraska Cornhuskers,,2021,Sophomore,Company,Charlie Hustle,https://twitter.com/BriceMatthews5/status/1563316292454453248
+5523,08/26/2022,Max Anderson,Nebraska Cornhuskers,,2020,Sophomore,Company,Charlie Hustle,https://twitter.com/maxanderson62_/status/1563259607631675393
 2419,08/25/2022,Braelon Allen,Wisconsin Badgers,Football,2021,Sophomore,Company,Pepsi,https://twitter.com/BraelonAllen/status/1562948339762876417
 1251,08/24/2022,J.T. Tuimoloau,Ohio State Buckeyes,Football,2021,Sophomore,Collective,Cohesion Foundation,https://twitter.com/cohesionohio/status/1562479957045297153?s=21&t=Hqey88tFxcKHHQVIKkLE9g
 1216,08/22/2022,Marcus Dumervil,Maryland Terrapins,Football,2020,RedShirt Freshman,Company,Hooters,
@@ -532,9 +532,9 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 5256,08/11/2022,Rikki Harris,Ohio State Buckeyes,,2019,RedShirt Junior,NIL representation,Hometown Heroes Sports Agency,https://www.instagram.com/p/ChIkKqjr1SL/
 884,08/10/2022,Lathan Ransom,Ohio State Buckeyes,Football,2020,Junior,Collective,The Foundation,https://twitter.com/TheFoundation1_/status/1557370234377539585?s=20&t=oczfF79vAoh5VlDEZ4y7oQ
 2118,08/09/2022,Cotie McMahon,Ohio State Buckeyes,,2022,Freshman,Company,Berry Blendz,https://www.instagram.com/p/ChDRg6dPkax/
-2899,08/09/2022,Cotie McMahon,Ohio State Buckeyes,,2022,Freshman,Company,Berry Blendz,https://www.instagram.com/reel/ChDRg6dPkax/?utm_source=ig_web_copy_link
 3386,08/09/2022,Devyn Robinson,Wisconsin Badgers,,2020,Junior,Company,American Eagle Outfitters,https://www.instagram.com/p/ChC918tuL6P/
 4043,08/09/2022,Lexi Rodriguez,Nebraska Cornhuskers,,2021,Sophomore,Company,Scooter's Coffee,https://twitter.com/Alexis14Rod/status/1557109519070683137
+2899,08/09/2022,Cotie McMahon,Ohio State Buckeyes,,2022,Freshman,Company,Berry Blendz,https://www.instagram.com/reel/ChDRg6dPkax/?utm_source=ig_web_copy_link
 1468,08/06/2022,Jack Nelson,Wisconsin Badgers,Football,2020,RedShirt Sophomore,Company,Fillback Family of Dealerships,https://www.instagram.com/p/Cg76gyrrclb/
 1466,08/05/2022,Jacoby Windmon,Michigan State Spartans,Football,2019,RedShirt Junior,Company,Boosted Biz,https://www.instagram.com/p/Cg4lmIIgBcf/
 2364,08/05/2022,Mitchell Pehlke,Ohio State Buckeyes,,2020,Junior,Company,Booster Athletes,https://www.instagram.com/p/Cg5Uq78J4rM/
@@ -542,7 +542,6 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 826,08/04/2022,Brice Sensabaugh,Ohio State Buckeyes,Basketball,2022,Senior,Collective,The Foundation,https://twitter.com/TheFoundation1_/status/1555406199784439808?s=20&t=XyEcHRIrMOKvsc1ihs3hHQ
 827,08/04/2022,Bruce Thornton,Ohio State Buckeyes,Basketball,2022,Senior,Collective,The Foundation,https://twitter.com/TheFoundation1_/status/1555406078053064705?s=20&t=XyEcHRIrMOKvsc1ihs3hHQ
 825,08/04/2022,C.J. Hicks,Ohio State Buckeyes,Football,2022,Freshman,Collective,The Foundation,https://twitter.com/TheFoundation1_/status/1555406742091169792?s=20&t=XyEcHRIrMOKvsc1ihs3hHQ
-761,08/03/2022,Trey Galloway,Indiana Hoosiers,Basketball,2020,Freshman,Collective and company,"Hoosiers For Good, LittleStar ABA Therapy",https://twitter.com/Hoosiers4Good/status/1554854692542418946
 772,08/03/2022,Pat McCaffery,Iowa Hawkeyes,Basketball,2019,RedShirt Junior,Company,Luka Garza Skills Camp,https://twitter.com/MattRandazzo/status/1555013566331293697
 769,08/03/2022,Pat McCaffery,Iowa Hawkeyes,Basketball,2019,RedShirt Junior,Company,Double Z Bar and Grill,https://khak.com/spend-an-evening-with-some-iowa-basketball-greats/
 765,08/03/2022,Miller Kopp,Indiana Hoosiers,Basketball,2018,Senior,Collective and company,"Hoosiers For Good, YMCA of Monroe County",https://twitter.com/Hoosiers4Good/status/1554854692542418946
@@ -554,6 +553,7 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 763,08/03/2022,CJ Gunn,Indiana Hoosiers,Basketball,2022,Senior,Collective and company,"Hoosiers For Good, Warriors 4 Peace",https://twitter.com/Hoosiers4Good/status/1554854692542418946
 3494,08/03/2022,Sydney Parrish,Indiana Hoosiers,,2020,Junior,Collective and company,"Hoosiers For Good, Riley Children's Foundation",https://www.instagram.com/p/CgzjQOFg9QM/
 767,08/03/2022,Xavier Johnson,Indiana Hoosiers,Basketball,2018,Senior,Collective and company,"Hoosiers For Good, A Kid Again",https://twitter.com/Hoosiers4Good/status/1554854692542418946
+761,08/03/2022,Trey Galloway,Indiana Hoosiers,Basketball,2020,Freshman,Collective and company,"Hoosiers For Good, LittleStar ABA Therapy",https://twitter.com/Hoosiers4Good/status/1554854692542418946
 679,08/02/2022,Ryan Hilinski,Northwestern Wildcats,Football,2019,Junior,Company,Degree Deodorant,
 1835,08/02/2022,Diamond Miller,Maryland Terrapins,,2019,Senior,Company,Diamond Miller Camp,https://www.instagram.com/p/Cgxf4-suArZ/?hl=en
 677,08/02/2022,Junior Colson,Michigan Wolverines,Football,2021,Sophomore,Company,Degree Deodorant,
@@ -572,13 +572,13 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 1038,07/29/2022,Myles Dread,Penn State Nittany Lions,Basketball,2018,Freshman,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1553022918002720770
 1762,07/26/2022,Caitlin Clark,Iowa Hawkeyes,,2020,Junior,Company,Topps,https://twitter.com/CaitlinClark22/status/1551933471911706628?s=20&t=7jme2BnIB1F__-T2v43tKQ
 3395,07/26/2022,Nicklin Hames,Nebraska Cornhuskers,,2019,Senior,Company,adidas,https://www.instagram.com/p/CgfltDmsECC/
-620,07/21/2022,Kobee Minor,Indiana Hoosiers,Football,2020,RedShirt Sophomore,Collective,The Matador Club,https://twitter.com/ThekobeeMinor/status/1550200144150274051?s=20&t=k3UMofEqW8gYTujr7ndgRQ
 2365,07/21/2022,Mitchell Pehlke,Ohio State Buckeyes,,2020,Junior,Company,Barstool Sports,https://www.instagram.com/p/CgShYJEJsSD/
+620,07/21/2022,Kobee Minor,Indiana Hoosiers,Football,2020,RedShirt Sophomore,Collective,The Matador Club,https://twitter.com/ThekobeeMinor/status/1550200144150274051?s=20&t=k3UMofEqW8gYTujr7ndgRQ
 587,07/21/2022,Erick All,Iowa Hawkeyes,Football,2019,Senior,Company,Levi's,https://www.instagram.com/p/CgSVMdvOdDc/
 563,07/20/2022,Chubba Purdy,Nebraska Cornhuskers,Football,2020,RedShirt Freshman,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 1036,07/20/2022,Dani Dennis-Sutton,Penn State Nittany Lions,Football,2022,Freshman,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1549756027523956742
 581,07/20/2022,Henry Lutovsky,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
-565,07/20/2022,Nash Hutmacher,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
+579,07/20/2022,Marcus Washington,Nebraska Cornhuskers,Football,2019,Sophomore,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 575,07/20/2022,Tyreke Johnson,Nebraska Cornhuskers,Football,2018,RedShirt Junior,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 566,07/20/2022,Thomas Fidone,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 572,07/20/2022,Teddy Prochazka,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
@@ -586,11 +586,11 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 571,07/20/2022,Omar Manning,Nebraska Cornhuskers,Football,2017,Senior,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 564,07/20/2022,Nick Henrich,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 573,07/20/2022,Myles Farmer,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
-579,07/20/2022,Marcus Washington,Nebraska Cornhuskers,Football,2019,Sophomore,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 570,07/20/2022,Luke Reimer,Nebraska Cornhuskers,,2019,Junior,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 569,07/20/2022,Logan Smothers,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 1035,07/20/2022,Abdul Carter,Penn State Nittany Lions,Football,2022,Freshman,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1549756027523956742
 1034,07/20/2022,Cam Miller,Penn State Nittany Lions,Football,2022,Freshman,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1549756027523956742
+565,07/20/2022,Nash Hutmacher,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,Big Red Fan Club,https://twitter.com/BigRedFanClubNE/status/1549790151211204613?s=20&t=mgr6rmEA9ZcQWbye3Wm-Lg
 556,07/18/2022,Denzel Burke,Ohio State Buckeyes,Football,2021,Sophomore,Collective and company,"The Foundation, American Eagle Outfitters",
 555,07/18/2022,TreVeyon Henderson,Ohio State Buckeyes,Football,2021,Sophomore,Collective and company,"The Foundation, American Eagle Outfitters",
 1271,07/18/2022,Arik Gilbert,Nebraska Cornhuskers,Football,2020,RedShirt Sophomore,Company,Life+STYLE by Laura,https://www.on3.com/nil/news/alabama-wr-emmanuel-henderson-latest-to-sign-nil-deal-with-lifestyle-by-laura/
@@ -606,43 +606,42 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 1101,07/15/2022,Luke Reimer,Nebraska Cornhuskers,,2019,Junior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1105,07/15/2022,Logan Smothers,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1055,07/15/2022,Koby Bretz,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1102,07/15/2022,Ty Robinson,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
+1088,07/15/2022,Tamon Lynum,Nebraska Cornhuskers,Football,2020,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1063,07/15/2022,Turner Corcoran,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1079,07/15/2022,Tommi Hill,Nebraska Cornhuskers,Football,2021,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1099,07/15/2022,Teddy Prochazka,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1089,07/15/2022,Omar Manning,Nebraska Cornhuskers,Football,2017,Senior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1088,07/15/2022,Tamon Lynum,Nebraska Cornhuskers,Football,2020,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1057,07/15/2022,Ru'Quan Buckley,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1108,07/15/2022,Richard Torres,Nebraska Cornhuskers,Football,2022,Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1085,07/15/2022,Randolph Kpai,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1059,07/15/2022,Brian Buschini,Nebraska Cornhuskers,,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1053,07/15/2022,Bryce Benhart,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
+1089,07/15/2022,Omar Manning,Nebraska Cornhuskers,Football,2017,Senior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1051,07/15/2022,Broc Bando,Nebraska Cornhuskers,Football,2017,RedShirt Senior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1062,07/15/2022,Braxton Clark,Nebraska Cornhuskers,Football,2018,RedShirt Junior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 552,07/15/2022,Blake Corum,Michigan Wolverines,Football,2020,Junior,Company,The M Den,https://twitter.com/TheMDen/status/1547950278439100416
 1073,07/15/2022,Blaise Gunnerson,Nebraska Cornhuskers,Football,2020,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1071,07/15/2022,Anthony Grant,Nebraska Cornhuskers,Football,2018,RedShirt Junior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1809,07/15/2022,Sierra Brooks,Michigan Wolverines,,2019,Freshman,Company,SaluteLeos,https://www.instagram.com/p/CgCru_jJGcT/?hl=en
+1059,07/15/2022,Brian Buschini,Nebraska Cornhuskers,,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
+1102,07/15/2022,Ty Robinson,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1104,07/15/2022,DeShon Singleton,Nebraska Cornhuskers,Football,2021,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1081,07/15/2022,Nash Hutmacher,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1082,07/15/2022,Rahmir Johnson,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1083,07/15/2022,Tyreke Johnson,Nebraska Cornhuskers,Football,2018,RedShirt Junior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1087,07/15/2022,Henry Lutovsky,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1074,07/15/2022,Heinrich Haarberg,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1106,07/15/2022,Garrett Snodgrass,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1091,07/15/2022,Eteva Mauga-Clements,Nebraska Cornhuskers,Football,2018,Senior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1076,07/15/2022,Ernest Hausmann,Michigan Wolverines,Football,2022,Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 550,07/15/2022,Donovan Edwards,Michigan Wolverines,Football,2021,Sophomore,Company,The M Den,https://twitter.com/TheMDen/status/1547950278439100416
-549,07/15/2022,Cade McNamara,Iowa Hawkeyes,Football,2019,RedShirt Junior,Company,The M Den,https://twitter.com/TheMDen/status/1547950278439100416
+1053,07/15/2022,Bryce Benhart,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1100,07/15/2022,Chubba Purdy,Nebraska Cornhuskers,Football,2020,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1078,07/15/2022,Chris Hickman,Nebraska Cornhuskers,Football,2019,RedShirt Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 953,07/15/2022,Chief Borders,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,Gator Collective,https://gatorcollective.com/current-athletes/chief-borders/
 1107,07/15/2022,Casey Thompson,Nebraska Cornhuskers,Football,2018,RedShirt Junior,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1069,07/15/2022,Isaac Gifford,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
+549,07/15/2022,Cade McNamara,Iowa Hawkeyes,Football,2019,RedShirt Junior,Company,The M Den,https://twitter.com/TheMDen/status/1547950278439100416
 1093,07/15/2022,Javier Morton,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
+1087,07/15/2022,Henry Lutovsky,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 1054,07/15/2022,Janiran Bonner,Nebraska Cornhuskers,Football,2022,Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
-1061,07/15/2022,James Carnie,Nebraska Cornhuskers,Football,2021,RedShirt Freshman,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 551,07/15/2022,J.J. McCarthy,Michigan Wolverines,Football,2021,Sophomore,Collective and company,"Champions Circle, The M Den",https://twitter.com/TheMDen/status/1547950278439100416
+1069,07/15/2022,Isaac Gifford,Nebraska Cornhuskers,Football,2020,Sophomore,Collective,N100,https://abmusa.org/wp-content/uploads/2022/04/ABM-Clients.pdf
 544,07/13/2022,Tarris Reed,Michigan Wolverines,Basketball,2022,Senior,Collective,MGoDAO,https://twitter.com/mgodaonft/status/1547295732750761985
 3038,07/12/2022,Grace Berger,Indiana Hoosiers,,2018,Senior,Company,Visit Bloomington,https://www.instagram.com/p/Cf67Gm1OIDt/
 3495,07/12/2022,Sydney Parrish,Indiana Hoosiers,,2020,Junior,Company,Totes,https://www.instagram.com/p/Cf7MFb9P9pb/
@@ -655,8 +654,8 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 4044,06/26/2022,Lexi Rodriguez,Nebraska Cornhuskers,,2021,Sophomore,Company,Unified Volleyball Camp,https://twitter.com/Alexis14Rod/status/1541194657413173248
 4049,06/23/2022,Lindsay Krause,Nebraska Cornhuskers,,2021,Junior,Company,Unified Volleyball Camp,https://twitter.com/lindsaykrause_/status/1540077288766771200
 173,06/21/2022,Myles Dread,Penn State Nittany Lions,Basketball,2018,Freshman,Company,Obsesh,https://wedo.obsesh.com/news/obsesh-partners-with-limitless-nil-collective-to-host-ncaa-athletes-on-platform
-1591,06/20/2022,Julian Fleming,Ohio State Buckeyes,Football,2020,Junior,Collective,The Foundation,https://twitter.com/julian_040/status/1538979714987184131?s=20&t=86AxL7i5lxagfivl12y7-A
 97,06/20/2022,Jack Sawyer,Ohio State Buckeyes,Football,2021,Sophomore,Company,Rickart Automative,https://www.ricart.com/Ricks-Intern
+1591,06/20/2022,Julian Fleming,Ohio State Buckeyes,Football,2020,Junior,Collective,The Foundation,https://twitter.com/julian_040/status/1538979714987184131?s=20&t=86AxL7i5lxagfivl12y7-A
 529,06/18/2022,Ryan Hayes,Michigan Wolverines,Football,2018,RedShirt Senior,Company,Wolverine Weekend,
 1763,06/18/2022,Caitlin Clark,Iowa Hawkeyes,,2020,Junior,Company,Iowa Cubs,https://twitter.com/IowaCubs/status/1538249454368788480?s=20&t=oXUkV4-VakPKGwzebtqJAA
 527,06/18/2022,J.J. McCarthy,Michigan Wolverines,Football,2021,Sophomore,Company,Wolverine Weekend,
@@ -686,24 +685,24 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 1026,04/21/2022,PJ Mustipher,Penn State Nittany Lions,Football,2018,Senior,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1517200396946743296
 1025,04/21/2022,Juice Scruggs,Penn State Nittany Lions,Football,2018,RedShirt Senior,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1517200396946743296
 3396,04/20/2022,Nicklin Hames,Nebraska Cornhuskers,,2019,Senior,Company,Fabletics,https://www.instagram.com/p/Ccl9yusFrip/
+1021,04/20/2022,Keaton Ellis,Penn State Nittany Lions,Football,2019,Junior,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1516826723190456335
 1024,04/20/2022,KeAndre Lambert-Smith,Penn State Nittany Lions,Football,2020,Sophomore,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1516826723190456335
 1023,04/20/2022,Caedan Wallace,Penn State Nittany Lions,Football,2019,RedShirt Junior,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1516826723190456335
-1021,04/20/2022,Keaton Ellis,Penn State Nittany Lions,Football,2019,Junior,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1516826723190456335
 1020,04/19/2022,Seth Lundy,Penn State Nittany Lions,Basketball,2019,Freshman,Collective,Success with Honor,https://twitter.com/success_w_honor/status/1516442770973642761
 3397,04/18/2022,Nicklin Hames,Nebraska Cornhuskers,,2019,Senior,Company,Campus Mogul,https://www.instagram.com/p/Ccf-fCRuj6q/
-1590,04/13/2022,Cameron Brown,Ohio State Buckeyes,Football,2018,RedShirt Senior,Collective,The Foundation,https://www.instagram.com/p/CcTnlLsvsG5/
 2119,04/13/2022,Cotie McMahon,Ohio State Buckeyes,,2022,Freshman,NIL representation,Curran Media Company,https://www.instagram.com/p/CclJ1PnJJVM/
+1590,04/13/2022,Cameron Brown,Ohio State Buckeyes,Football,2018,RedShirt Senior,Collective,The Foundation,https://www.instagram.com/p/CcTnlLsvsG5/
 535,04/11/2022,J.J. McCarthy,Michigan Wolverines,Football,2021,Sophomore,Collective and company,"Champions Circle, Eberg Capital",https://twitter.com/AJEhrenberg_/status/1513605538780786697
 495,04/08/2022,Tiawan Mullen,Indiana Hoosiers,Football,2019,Senior,Collective and company,"Hoosiers For Good, Boys and Girls Club of Bloomington",https://saturdaytradition.com/indiana-football/indiana-db-tiawan-mullen-joins-hoosiers-for-good-with-nil-deal-for-a-local-charity/
+501,04/07/2022,Race Thompson,Indiana Hoosiers,Basketball,2017,RedShirt Junior,Collective and company,"Hoosiers For Good, Stop the Violence Indianapolis",https://twitter.com/Hoosiers4Good/status/1512090833465618435
 497,04/07/2022,Jack Tuttle,Michigan Wolverines,Football,2018,RedShirt Junior,Collective and company,"Hoosiers For Good, American Red Cross of Indiana",https://twitter.com/jacktuttle14/status/1512211532783968263
 498,04/07/2022,AJ Barner,Michigan Wolverines,Football,2020,Junior,Collective and company,"Hoosiers For Good, RecycleForce",https://twitter.com/_ajbarner_/status/1512159622236409861
 3039,04/07/2022,Grace Berger,Indiana Hoosiers,,2018,Senior,Collective and company,"Hoosiers For Good, Indiana Wish",https://www.instagram.com/p/CcDyQUJpp18/
 496,04/07/2022,Trayce Jackson-Davis,Indiana Hoosiers,Basketball,2019,Junior,Collective and company,"Hoosiers For Good, Turnstone Center",https://twitter.com/TurnstoneCenter/status/1512166236452491267
-501,04/07/2022,Race Thompson,Indiana Hoosiers,Basketball,2017,RedShirt Junior,Collective and company,"Hoosiers For Good, Stop the Violence Indianapolis",https://twitter.com/Hoosiers4Good/status/1512090833465618435
 500,04/07/2022,Race Thompson,Indiana Hoosiers,Basketball,2017,RedShirt Junior,Collective and company,"Hoosiers For Good, Turnstone Center",https://twitter.com/TurnstoneCenter/status/1512165646406197250
 502,04/07/2022,Matthew Bedford,Indiana Hoosiers,Football,2019,RedShirt Junior,Collective and company,"Hoosiers For Good, American Red Cross of Indiana",https://twitter.com/Hoosiers4Good/status/1512090833465618435
-1594,04/04/2022,Tanner Holden,Ohio State Buckeyes,,2019,Senior,Collective,The Foundation,https://www.instagram.com/p/Cb8IOWnpAuR/
 146,04/04/2022,Justice Sueing,Ohio State Buckeyes,Basketball,2017,RedShirt Sophomore,Company,Dollar Shave Club,https://www.instagram.com/p/Cb8g6dwv9EG/
+1594,04/04/2022,Tanner Holden,Ohio State Buckeyes,,2019,Senior,Collective,The Foundation,https://www.instagram.com/p/Cb8IOWnpAuR/
 2763,03/25/2022,Anna Camden,Penn State Nittany Lions,,2019,Senior,Company,Roots Natural Kitchen,https://www.instagram.com/p/Cbiy1ZDpuCY/
 931,03/23/2022,Lance Dixon,Penn State Nittany Lions,Football,2019,RedShirt Sophomore,Collective,Country Roads Trust,https://twitter.com/CountryRdsTrust/status/1506680207071141890
 149,03/17/2022,Justice Sueing,Ohio State Buckeyes,Basketball,2017,RedShirt Sophomore,Company,RITZ Crackers,https://www.instagram.com/p/CbNqDllOYhO/
@@ -750,8 +749,8 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 2726,11/05/2021,J.T. Tuimoloau,Ohio State Buckeyes,Football,2021,Freshman,Company,Infinity Clothing,https://www.instagram.com/p/CV6BiD5vgUT/
 142,10/27/2021,Donovan Jackson,Ohio State Buckeyes,Football,2021,Freshman,Company,Upside,https://twitter.com/D_jack78/status/1453532688795648001
 2905,10/26/2021,Tory Ozment,Michigan State Spartans,,2018,Senior,Company,Michigan State University FCU,https://www.instagram.com/p/CVgGjK8PWbR/
-85,10/19/2021,A.J. Henning,Michigan Wolverines,Football,2020,Sophomore,Company,Outback Steakhouse,https://www.bloominbrands.com/newsroom/news-releases/news-release/outback-steakhouse-launches-teammates-program-with-college-football-athletes
 83,10/19/2021,Blake Corum,Michigan Wolverines,Football,2020,Sophomore,Company,Outback Steakhouse,https://www.bloominbrands.com/newsroom/news-releases/news-release/outback-steakhouse-launches-teammates-program-with-college-football-athletes
+85,10/19/2021,A.J. Henning,Michigan Wolverines,Football,2020,Sophomore,Company,Outback Steakhouse,https://www.bloominbrands.com/newsroom/news-releases/news-release/outback-steakhouse-launches-teammates-program-with-college-football-athletes
 3387,10/19/2021,Devyn Robinson,Wisconsin Badgers,,2020,Sophomore,Company,Barilla,https://www.instagram.com/p/CVN74TLAlH7/
 2978,10/09/2021,Ziyah Holman,Michigan Wolverines,,2020,Sophomore,Company,Snackpass,https://www.instagram.com/p/CU0ZHN8lyNO/
 384,10/07/2021,Eli Brooks,Michigan Wolverines,Basketball,2017,Senior,Company,The Players Trunk,https://theplayerstrunk.com/collections/eli-brooks-trunk
@@ -768,15 +767,15 @@ Key,Date,Name,School,Sport,Class Year,Class Rank,Type,Partner,URL
 3401,09/03/2021,Nicklin Hames,Nebraska Cornhuskers,,2019,Senior,Company,Love Your Melon,https://www.instagram.com/p/CTYnxPsMbhB/
 3402,09/02/2021,Nicklin Hames,Nebraska Cornhuskers,,2019,Senior,Company,Ameritas,https://www.instagram.com/p/CTV5JL-Fi3M/
 397,09/01/2021,Malik Hall,Michigan State Spartans,Basketball,2019,Freshman,Company,Cameo,https://www.cameo.com/malikhall
-398,09/01/2021,Marcus Bingham Jr.,Michigan State Spartans,Basketball,2018,Freshman,Company,Cameo,https://www.cameo.com/gbgmarky
-404,09/01/2021,Thomas Kithier,Michigan State Spartans,Basketball,2018,Freshman,Company,Cameo,https://www.cameo.com/thomaskithier
 367,09/01/2021,Teddy Prochazka,Nebraska Cornhuskers,Football,2021,Freshman,Company,Barstool Sports,https://twitter.com/stoolathletics/status/1433044470920978440
 402,09/01/2021,Spencer Brown,Michigan State Spartans,Football,2019,RedShirt Sophomore,Company,Cameo,https://www.cameo.com/the58show
 288,09/01/2021,Ryan Hilinski,Northwestern Wildcats,Football,2019,Sophomore,Company,Cameo,https://www.cameo.com/ryanhilinski
+398,09/01/2021,Marcus Bingham Jr.,Michigan State Spartans,Basketball,2018,Freshman,Company,Cameo,https://www.cameo.com/gbgmarky
 322,09/01/2021,Preston Terrell,Purdue Boilermakers,Football,2021,Freshman,Company,Cameo,https://www.cameo.com/pterrell.84
 285,09/01/2021,Matthew Mayer,Illinois Fighting Illini,Basketball,2018,Senior,Company,Cameo,https://www.cameo.com/matthewmayer_24
 3403,09/01/2021,Nicklin Hames,Nebraska Cornhuskers,,2019,Senior,Company,Stand-With-Bands,https://www.instagram.com/p/CTTRMTLMQ8y/
 286,09/01/2021,Austin Hutcherson,Illinois Fighting Illini,,2017,RedShirt Senior,Company,Cameo,https://www.cameo.com/ahutch22
+404,09/01/2021,Thomas Kithier,Michigan State Spartans,Basketball,2018,Freshman,Company,Cameo,https://www.cameo.com/thomaskithier
 271,09/01/2021,Trent Frazier,Illinois Fighting Illini,Basketball,2017,Senior,Company,Cameo,https://www.cameo.com/trentfrazier
 332,09/01/2021,Gee Scott Jr.,Ohio State Buckeyes,Football,2020,Sophomore,Company,Cameo,https://www.cameo.com/geescottjr13
 359,09/01/2021,Dylan Barrett,Wisconsin Badgers,Football,2020,RedShirt Freshman,Company,Cameo,https://www.cameo.com/dylanbarrett61
